@@ -24,6 +24,8 @@ export const modules: Module[] = [
     slug: 'licne-granice',
     title: 'Lične granice',
     iconSrc: shieldIcon,
+    description:
+      'Saznaj šta su lične granice, zašto su važne i kako ih prepoznati u svakodnevnim situacijama.',
   },
   {
     id: 4,

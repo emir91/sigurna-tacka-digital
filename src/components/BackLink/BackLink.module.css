@@ -1,0 +1,13 @@
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  min-height: 48px;
+  color: var(--color-brand);
+  text-decoration: none;
+}
+
+.icon {
+  flex: 0 0 24px;
+}
