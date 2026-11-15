@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--page-padding);
+  background: var(--color-background);
+}
+
+.logo {
+  width: 64px;
+  height: auto;
+  object-fit: contain;
+}
+
+.menuButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.menuButton:hover {
+  opacity: 0.8;
+}
+
+.menuButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.menuButton:focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 4px;
+}
+
+.menuIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  gap: 4px;
+}
+
+.line {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-brand);
+  transition: transform 0.2s ease;
+}
