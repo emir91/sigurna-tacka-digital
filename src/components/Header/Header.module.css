@@ -1,4 +1,9 @@
 .header {
+  width: 100%;
+  max-width: calc(
+    var(--content-max-width) + var(--page-padding) + var(--page-padding)
+  );
+  margin-inline: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,6 +12,7 @@
 }
 
 .logo {
+  flex: 0 0 auto;
   width: 64px;
   height: auto;
   object-fit: contain;
@@ -27,11 +33,6 @@
 
 .menuButton:hover {
   opacity: 0.8;
-}
-
-.menuButton:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
 }
 
 .menuButton:focus-visible {

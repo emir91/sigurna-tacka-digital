@@ -1,0 +1,8 @@
+.main {
+  width: 100%;
+  max-width: calc(
+    var(--content-max-width) + var(--page-padding) + var(--page-padding)
+  );
+  margin-inline: auto;
+  padding: var(--page-padding);
+}
