@@ -1,0 +1,26 @@
+:root {
+  --color-brand: #254582;
+  --color-text: #17243b;
+  --color-background: #f7f4ee;
+  --color-surface: #e7edf5;
+  --color-yellow: #e8c76b;
+  --color-red: #d92535;
+
+  --font-family: 'Noto Sans', sans-serif;
+
+  --font-size-page: 28px;
+  --line-height-page: 36px;
+
+  --font-size-card: 17px;
+  --line-height-card: 24px;
+
+  --font-size-body: 18px;
+  --line-height-body: 28px;
+
+  --font-size-small: 14px;
+  --line-height-small: 20px;
+
+  --radius-card: 16px;
+  --page-padding: 24px;
+  --content-max-width: 720px;
+}
